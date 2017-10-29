@@ -1,0 +1,46 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ChangeStr	SortStr.c	/^int ChangeStr(char symbol[][STRING_SIZE],int num){$/;"	f
+Computemy	Computemy.c	/^double Computemy(char symbol[][SYMBOL_SIZE],int num){$/;"	f
+EXP	MyStr.h	4;"	d
+GetTop	Stack.c	/^int GetTop(struct Stack stk,int *des){$/;"	f
+GetTopD	Stack.c	/^int GetTopD(struct StackD stk,double *des){$/;"	f
+IsChar	SortStr.c	/^int IsChar(char c){$/;"	f
+IsNumber	SortStr.c	/^int IsNumber(char c){$/;"	f
+Max	Draw.c	8;"	d	file:
+Min	Draw.c	9;"	d	file:
+NumOfStr	NumToStr.c	/^double NumOfStr(char *str){$/;"	f
+NumToStr	NumToStr.c	/^void NumToStr(double src,char *des){$/;"	f
+PIXEL_X	Draw.c	6;"	d	file:
+PIXEL_Y	Draw.c	7;"	d	file:
+Parse	Draw.c	/^double Parse(char *fx,double x){$/;"	f
+Pop	Stack.c	/^int Pop(struct Stack *stk){$/;"	f
+PopD	Stack.c	/^double PopD(struct StackD *stk){$/;"	f
+PriorOf	SortStr.c	/^int PriorOf(char *sym){$/;"	f
+Push	Stack.c	/^int Push(struct Stack*stk,int elem){$/;"	f
+PushD	Stack.c	/^int PushD(struct StackD *stk,double elem){$/;"	f
+STACK_INIT_SIZE	Stack.h	4;"	d
+STRING_SIZE	MyStr.h	5;"	d
+SYMBOL_SIZE	MyStr.h	3;"	d
+SortStr	SortStr.c	/^int SortStr(const char *str,char des[][STRING_SIZE]){$/;"	f
+Stack	Stack.h	/^struct Stack{$/;"	s
+StackD	Stack.h	/^struct StackD{$/;"	s
+StackInit	Stack.c	/^int StackInit(struct Stack *stk){$/;"	f
+StackInitD	Stack.c	/^int StackInitD(struct StackD *stk){$/;"	f
+StrCpy	StrCpy.c	/^int StrCpy(char *src,char *des){$/;"	f
+StrEqu	StrEqu.c	/^int StrEqu(char *src,char *des){$/;"	f
+Substitude	SortStr.c	/^void Substitude(char src[][STRING_SIZE],int num,double s){$/;"	f
+_MYSTR_H_	MyStr.h	2;"	d
+_STACK_H_	Stack.h	2;"	d
+array	Stack.h	/^	double *array;$/;"	m	struct:StackD
+array	Stack.h	/^	int *array;$/;"	m	struct:Stack
+main	Draw.c	/^void main(){$/;"	f
+sp	Stack.h	/^	int sp;$/;"	m	struct:Stack
+sp	Stack.h	/^	int sp;$/;"	m	struct:StackD
+stacksize	Stack.h	/^	int stacksize;$/;"	m	struct:Stack
+stacksize	Stack.h	/^	int stacksize;$/;"	m	struct:StackD
+stkdouble	Stack.h	/^}stkdouble;$/;"	v	typeref:struct:StackD
